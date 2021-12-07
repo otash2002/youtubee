@@ -1,0 +1,33 @@
+.list-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 30px;
+  margin-top: 15px;
+}
+.vid-list{
+  .flex-div{
+    align-items: flex-start;
+    margin-top: 7px;
+    img{
+      width: 35px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+  }
+  .thumbnail{
+    width: 100%;
+    border-radius: 5px;
+
+  }
+}
+.vid-info{
+  color: #5a5a5a;
+  font-size: 13px;
+  a{
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+  }
+}

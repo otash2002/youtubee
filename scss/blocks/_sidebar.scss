@@ -1,0 +1,51 @@
+.sidebar{
+  background: #fff;
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  padding-top: 80px;
+  transition: all 0s ease;
+  hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+  }
+}
+.shortcut-links a img{
+  width: 20px;
+  margin-right: 20px;
+
+}
+.shortcut-links a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+.shortcut-links a:first-child{
+  color: #ed3833;
+}
+.subscribed-list{
+  h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+  }
+  a{
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    img{
+      width: 25px;
+      border-radius: 50%;
+      margin-right: 15px;
+    }
+  }
+}
